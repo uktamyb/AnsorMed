@@ -1,0 +1,88 @@
+/* GLOBAL */
+
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: OpenSnasCondensed;
+  src: url(../fonts/OpenSans_Condensed-Bold.ttf) format("truetype");
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  letter-spacing: 1.5;
+}
+
+/* Container */
+
+.container {
+  width: 100%;
+  max-width: 1160px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid green;
+}
+
+/* HEADER */
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container a {
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32.68px;
+}
+
+.site-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-nav li {
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.site-nav li a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 2px;
+  color: #222;
+}
+
+.registrate {
+  border-radius: 8px;
+  font-family: OpenSnasCondensed;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22.5px;
+  letter-spacing: 2px;
+  padding: 12px 24px;
+  color: #fff;
+  background-color: #DE2E54;
+}
+
+/* MAIN */
+
+/* FOOTER */
